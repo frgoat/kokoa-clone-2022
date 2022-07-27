@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "variable.css";
 
+@import "nav-bar.css";
 @import "logincompo/status-bar.css";
 @import "logincompo/welcomeheader.css";
 @import "logincompo/loginform.css";
