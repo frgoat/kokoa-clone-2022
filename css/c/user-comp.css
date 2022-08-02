@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .user-component,
@@ -39,5 +40,9 @@
 }
 
 .user-component__column-rind {
-    color:rgba(0, 0, 0, 0.5)
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.user-comp__time {
+    color: rgba(0, 0, 0, 0.5);
 }
