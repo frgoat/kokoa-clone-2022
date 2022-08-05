@@ -4,6 +4,8 @@
     padding: 40px 25px 25px 25px;
     align-items: center;
     margin-bottom: 15px;
+    position: sticky;
+    top: 0;
 }
 
 .screen-header__title {

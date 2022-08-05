@@ -96,3 +96,13 @@
 .open-post__column__photo__overlay span {
     margin-left: 3px;
 }
+.geardot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
