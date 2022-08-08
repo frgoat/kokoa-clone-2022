@@ -35,13 +35,46 @@
             <h1 class="alt-header__title">FRGoat</h1>
         </div>
         <div class="alt-header__column">
-            <i class="fas fa-search fa-xl chatsearch"></i>
-            <i class="fas fa-bars fa-xl"></i>
+            <span><i class="fas fa-search fa-xl chatsearch"></i></span>
+            <span><i class="fas fa-bars fa-xl"></i></span>
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            2022. 08. 08. 월
+        </div>
+        <div class="message-row received-row">
+            <img src="img/logo.png" class="message-row__profil" />
+            <div class="message-row__content">
+                <span class="message-author">FRGoat</span>
+                <div class="message-info">
+                    <span class="message-bubble">Hi!</span>
+                    <span class="message-time">21:22</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row outgoing-row">
+            <div class="message-row__content">
+                <div class="message-info">
+                    <span class="message-time">21:22</span>
+                    <span class="message-bubble">Oh, Hi. nice to meet you!</span>
+                </div>
+            </div>
+        </div>
     </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
 
     <script src="https://kit.fontawesome.com/66a04ca9c5.js" crossorigin="anonymous"></script>
 </body>
