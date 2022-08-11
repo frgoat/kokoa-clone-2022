@@ -106,3 +106,21 @@
     left: 20px;
     bottom: 10px;
 }
+@keyframes haertbeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.7);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+.open-post__column__photo__overlay:hover i {
+    will-change: transform;
+    animation: haertbeat 1s linear infinite;
+}

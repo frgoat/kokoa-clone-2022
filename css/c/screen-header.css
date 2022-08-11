@@ -17,3 +17,15 @@
     margin-left: 25px;
     position: relative;
 }
+
+@keyframes rotgear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-gear:hover {
+    animation: rotgear 2s linear infinite;
+}

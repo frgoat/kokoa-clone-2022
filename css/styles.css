@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "variable.css";
 
+@import "splash-screen.css";
 @import "nav-bar.css";
 @import "logincompo/status-bar.css";
 @import "logincompo/welcomeheader.css";
@@ -16,6 +17,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chating.css";
+@import "c/no-mobile.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
